@@ -1,3 +1,5 @@
+// https://exercism.org/tracks/typescript/exercises/rna-transcription
+
 export function toRna(dna: string): string {
   const rnaValue = [...dna].map((letter) => {
     if (!dnaComplements.has(letter)) throw new Error("Invalid input DNA.");
