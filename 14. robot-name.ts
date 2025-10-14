@@ -1,3 +1,5 @@
+// https://exercism.org/tracks/typescript/exercises/robot-name
+
 export class Robot {
   private static existingRobots = new Set<string>();
   private robotName: string = "";
